@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.card-container {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+.card #profession {
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.card #myself {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  z-index: 5;
+}
